@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+
+
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sty.css">
+
+</head>
+<body>
+   <div class="C">
+        <form>
+            <h1 class="p">PAYMENT</h1>
+
+
+
+              <h1 class="q">Contact Information</h1>
+              <div style="border:2px solid rgb(24, 26, 27);
+                   padding: 10px;
+                   border-radius: 10px;" class="a">
+
+               <p>Name: <input type="text" name="name" placeholder="enter name"required></p>
+               <fieldset>
+                      <b> Gender </b>
+                      <p>male <input type="radio" id="gender" name="gender" required>
+                        female <input type="radio" id="gender" name="gender"required></p>
+               </fieldset>
+               <p>Address:<textarea name="address" placeholder="enter your adress" id="address" cols="80" rows="8"></textarea>  </p>
+               <p>Email: <input type="email" placeholder="enter your gmail" name="email" id="email"> </p>
+               <p>Number: <input type="Pincode" placeholder="enter no" name="Pincode" id="Pincode" ></p>
+         </div class="a">
+
+          <hrstyle="border:2px solid rgb(24, 26, 27);>
+
+
+              <h1 class="q">Payment Information</h1>
+      <div style="border:2px solid rgb(24, 26, 27);
+      padding: 10px;
+      border-radius: 10px;" class="b">
+              <p>Card Type:
+                  <select name ="Card type" id="Card type"required>
+                    <option value="">--Select card type--></option>
+                    <option value="Visa">Visa</option>
+                    <option value="SBI">SBI</option>
+                    <option value="Pan">PAN</option>
+                  </select>
+              </p>
+              <p> Card Number:<input type="number" placeholder="1111-2222-3333" name="card no" id="card no" required></p>
+              <p> Amount:<input type="number" placeholder="100" name="amount" id="amount" required></p>
+              <p> Password:<input type="password" placeholder="******" name="password" id="password"required></p>
+              <p>Expiration date: <input type="date" name="exp_date" id="exp_date" required> </p>
+              <p><input type="submit" value="Pay Now" > </p>
+         </div class="b">
+
+        </form>
+   </div>
+</body>
+</html>

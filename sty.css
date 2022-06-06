@@ -1,0 +1,76 @@
+.C {
+  color: rgb(0, 0, 0);
+  margin: 15px 30px;
+  padding: 10px;
+  border-style: solid;
+  border-color: rgb(54, 54, 56);
+  border-radius: 20px;
+  border-width: 5px;
+  font-weight: 1000%;
+  background-color: rgb(233, 227, 227);
+}
+
+.p {
+  text-align: center;
+  font-size: 500%;
+  color: rgb(14, 12, 12);
+}
+
+.q {
+  color: rgb(19, 16, 16);
+  
+}
+
+* {
+  font-family: "Merriweather", serif;
+  word-spacing: 5px;
+  box-sizing: border-box;
+
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+input {
+  padding: 9px 33px;
+  margin: 8px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #fafeff;
+  color: rgb(26, 23, 23);
+  border-radius: 5px;
+}
+textarea,
+select {
+  width: 98%;
+  color: rgb(32, 29, 29);
+  border-radius: 10px;
+}
+
+select {
+  padding: 5px;
+}
+div.a,
+div.b {
+  position: relative;
+  background-color: rgb(219, 219, 219);
+  background-position: center;
+}
+input[type="submit"] {
+  width: 95%;
+  background-color: rgba(31, 230, 230, 0.651);
+  border-radius: 10px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  color: rgb(255, 255, 255);
+}
+fieldset {
+  width: 97%;
+  border-radius: 10px;
+}
+div.a {
+  border: 50px;
+  border-color: solid black; !important;
+}
+*{
+  box-sizing: border-box;
+}
